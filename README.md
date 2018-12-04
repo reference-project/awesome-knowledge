@@ -4,7 +4,7 @@
 ## :thinking: Awesome-Mindmap 的诞生。
 > 好记性不如烂笔头。
 
-对于每一个没有过目不忘的超级大脑的人，都需要一个知识管理系统。用来管理你曾经学习过的知识，我在日常的生活工作过程中往往会发现有些明明学过的东西，在使用的过程中却总也记不起来，总要东找西找还不一定能够找到，耗时又费力。只是管理系统的意义不只是记录下来，笔者认为在学习的过程中，也就是从信息到知识有三种阶段，了解，理解，精通。在信息经过大脑处理以前属于了解，经过处理后转化为了知识，在这里可以称之为理解。想要到精通的地步非得精细的推衍与实践不可，也只有到了这一步才算是进了精通的门。有鉴于此，[awesome-mindmap](https://github.com/Huyunxiu/awesome-mindmap/edit/master/README.md) 诞生了。希望能够凭借它让信息转化为属于自己的知识。
+对于每一个没有过目不忘的超级大脑的人，都需要一个知识管理系统。用来管理你曾经学习过的知识，我在日常的生活工作过程中往往会发现有些明明学过的东西，在使用的过程中却总也记不起来，总要东找西找还不一定能够找到，耗时又费力。管理系统的意义不只是记录下来，笔者认为在学习的过程中，也就是从信息到知识的转化过程中有三种阶段，了解，理解，精通。在信息经过大脑处理以前属于了解，经过处理后转化为了知识，在这里可以称之为理解。想要到精通的地步非得精细的推衍与实践不可，也只有到了这一步才算是进了精通的门。有鉴于此，[awesome-mindmap](https://github.com/Huyunxiu/awesome-mindmap/edit/master/README.md) 诞生了。希望能够凭借它让信息转化为属于自己的知识。
 
 ## :bookmark_tabs: 目录
 ### :page_with_curl: 语言
@@ -12,12 +12,14 @@
 ### :package: 后端
 
 ### :globe_with_meridians: 前端
+#### 框架
+- [react](/frontend/framework/react/react.md)
 
 ### :card_file_box: 数据库
 
 ### :wrench: 工具
 #### 写作工具
-* [markdown](/tool/writing/markdown.md)
+- [markdown](/tool/writing/markdown.md)
 
 ### :memo: 资源
 - [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)：常用的Emoji
