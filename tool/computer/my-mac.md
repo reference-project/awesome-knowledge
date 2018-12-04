@@ -1,5 +1,14 @@
 # 我的Mac配置与日常工具
 
+[我的Mac配置与日常工具](#我的mac配置与日常工具)
+- [终端系列](#终端系列)
+- [翻墙系列](#翻墙系列)
+- [编辑器](#编辑器)
+- [浏览器](#浏览器)
+- [日常开发](#日常开发)
+- [设计作图](#设计作图)
+- [日常使用](#日常使用)
+
 ## 终端系列
 - [Iterm2](https://github.com/gnachman/iTerm2)：Mac OS X的终端模拟工具
 - [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh)：zsh社区驱动框架，用来美化和管理你的zsh配置
