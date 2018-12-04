@@ -13,13 +13,15 @@
 
 ### :globe_with_meridians: 前端
 #### 框架
-- [react](/frontend/framework/react/react.md)
+- [React](/frontend/framework/react/react.md)
 
 ### :card_file_box: 数据库
 
 ### :wrench: 工具
+#### 电脑配置
+- [我的Mac工具集](/tool/computer/my-mac.md)
 #### 写作工具
-- [markdown](/tool/writing/markdown.md)
+- [Markdown](/tool/writing/markdown.md)
 
 ### :memo: 资源
 - [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)：常用的Emoji
