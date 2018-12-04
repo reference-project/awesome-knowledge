@@ -16,6 +16,13 @@
 ### :card_file_box: 数据库
 
 ### :wrench: 工具
+#### 写作工具
+* [markdown](/tool/writing/markdown.md)
+
+### :memo: 资源
+- [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)：常用的Emoji
+- [CommitEmoji](https://gitmoji.carloscuesta.me/)：Git commit message 中使用的 emoji 语义表
+- [Sheild](https://shields.io/#/)：给你的README增加徽章
 
 ## :mortar_board: 版权
 所有文章遵循[知识共享 署名 - 非商业性使用 - 禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)，欢迎转载，尊重版权。
