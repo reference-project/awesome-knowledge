@@ -1,5 +1,22 @@
 # Markdown
 
+[Markdown](#markdown)
+- [标题](#标题)
+- [列表](#列表)
+- [倾斜文本](#倾斜文本)
+- [加粗文本](#加粗文本)
+- [删除线文本](#删除线文本)
+- [加粗并倾斜文本](#加粗并倾斜文本)
+- [链接](#链接)
+- [代码](#代码)
+- [分割线](#分割线)
+- [图片](#图片)
+- [引用](#引用)
+- [表格](#表格)
+- [折叠](#折叠)
+- [任务列表](#任务列表)
+- [Emoji](#emoji)
+
 ## 标题
 ```markdown
 # h1
@@ -174,3 +191,13 @@ String str = new String();
     <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
 </details>
 ```
+
+## 任务列表
+```markdown
+// 不属于标准 markdown 语法，但是一般都会支持，比如 github
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+
+## Emoji
+:smiling_imp:在 markdown 中可以使用 emoji 表情来丰富你的文档，具体可以看[Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
