@@ -84,3 +84,4 @@
 - [IINA](https://github.com/lhc70000/iina)：Mac中比较好用的现代播放器
 - [Postman](https://www.getpostman.com/)：接口工具
 - [Clear My Mac](https://macpaw.com/):Mac清理工具
+- [iStat Menus](https://bjango.com/mac/istatmenus/)：电脑运行状态监控工具
