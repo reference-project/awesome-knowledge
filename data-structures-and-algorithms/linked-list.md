@@ -1,5 +1,6 @@
 # 链表(Linked List)
 
+## 经典应用：LRU缓存淘汰算法
 链表，说起来链表就逃不过一种链表的经典使用场景，LRU缓存淘汰算法。缓存是我们再熟悉不过的技术了，但因为缓存空间有限，当缓存空间被用满，哪些数据应该被清除出空间，哪些数据应该被保留，这就需要缓存淘汰策略来决定。常见的缓存策略用有三种：先进先出FIFO（First In, First Out），最少使用策略LFU（Least Frequently Used），最近最少使用策略LRU（Least Recently Used）。其中最近最少使用策略LRU（Least Recently Used）的实现就是由链表实现。
 
 ## 链表的特点
