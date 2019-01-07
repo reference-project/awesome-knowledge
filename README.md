@@ -10,6 +10,7 @@
 ### :page_with_curl: 语言
 
 ### :package: 后端
+- [Nginx](/backend/nginx.md)
 
 ### :globe_with_meridians: 前端
 #### 框架
