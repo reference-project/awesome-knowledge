@@ -19,9 +19,8 @@
 ### :card_file_box: 数据库
 
 ### :wrench: 工具
-#### 电脑配置
+- [Git](/tool/git/git.md)
 - [我的Mac工具集](/tool/computer/my-mac.md)
-#### 写作工具
 - [Markdown](/tool/writing/markdown.md)
 
 ### :memo: 资源
