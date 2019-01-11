@@ -1,11 +1,30 @@
 # Git
 
+- [Git](#git)
+  - [Git模型](#git%E6%A8%A1%E5%9E%8B)
+  - [常用命令](#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+      - [配置](#%E9%85%8D%E7%BD%AE)
+      - [修改和提交](#%E4%BF%AE%E6%94%B9%E5%92%8C%E6%8F%90%E4%BA%A4)
+      - [分支与标签](#%E5%88%86%E6%94%AF%E4%B8%8E%E6%A0%87%E7%AD%BE)
+      - [查看变更](#%E6%9F%A5%E7%9C%8B%E5%8F%98%E6%9B%B4)
+      - [撤销](#%E6%92%A4%E9%94%80)
+      - [特殊操作](#%E7%89%B9%E6%AE%8A%E6%93%8D%E4%BD%9C)
+      - [远端操作](#%E8%BF%9C%E7%AB%AF%E6%93%8D%E4%BD%9C)
+  - [GitFlow工作流程](#gitflow%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B)
+      - [GitFlow使用原则](#gitflow%E4%BD%BF%E7%94%A8%E5%8E%9F%E5%88%99)
+      - [GitFlow分支](#gitflow%E5%88%86%E6%94%AF)
+      - [GitFlow快捷操作](#gitflow%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C)
+  - [CommitMessage规范](#commitmessage%E8%A7%84%E8%8C%83)
+      - [CommitMessage格式](#commitmessage%E6%A0%BC%E5%BC%8F)
+      - [所有的`type`类型如下：](#%E6%89%80%E6%9C%89%E7%9A%84type%E7%B1%BB%E5%9E%8B%E5%A6%82%E4%B8%8B)
+
+## Git模型
 Git有三个区域，分别是工作区（Working Directory）、暂存区（Stage）、仓库区（Respository），具体关系如下图：
 
 ![timeline](./git-timeline.jpeg)
 
 ## 常用命令
-### 配置
+#### 配置
 ```bash
 git config --local                              # 只对某个仓库有效
 git config --global                             # 对当前用户所有仓库生效
@@ -15,7 +34,7 @@ git config --global user.name [user.name]       # 设置用户名
 git config --global user.email [user.email]     # 设置用户邮箱
 ```
 
-### 修改和提交
+#### 修改和提交
 ```bash
 git add .                                       # 跟踪所有改动过的文件
 git add <file>                                  # 跟踪指定的文件
@@ -31,7 +50,7 @@ git stash drop                                  # 删除一个储存
 git stash pop                                   # 将保存起来的更改应用到本地
 ```
 
-### 分支与标签
+#### 分支与标签
 ```bash
 git branch                                      # 显示本地所有分支
 git branch -r                                   # 显示远程所有分支
@@ -51,7 +70,7 @@ git push origin :refs/tags/<tag>                # 删除远程标签
 git push --tags                                 # 上传所有标签
 ```
 
-### 查看变更
+#### 查看变更
 ```bash
 git status                                      # 显示工作路径下已修改的文件
 git diff                                        # 工作区和暂存区的差异
@@ -64,7 +83,7 @@ git log                                         # 提交历史记录
 git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative # 非常好用的git log命令美化版
 ```
 
-### 撤销
+#### 撤销
 ```bash
 git reset --hard HEAD                            # 撤销工作区中所有未提交的修改
 git checkout <file>                              # 让指定文件从暂存区回退到工作区
@@ -74,7 +93,7 @@ git reset --soft <commit>                        # 只回退commit的信息，�
 git reset --hard <commit>                        # 彻底回退到某个版本，不保留源码
 ```
 
-## 特殊操作
+#### 特殊操作
 ```bash
 git cherry-pick <commit>                          # pick指定commit合并到当前分支
 git merge <branach>                               # 将目标分支合并到当前分支，如果有冲突，则会在解决完冲突后自动产生一个commit
@@ -92,7 +111,7 @@ git rebase -i <start-commit> <end-commit>         # 合并commit,不写start-com
 ```
 ![git merge](./git-merge.png)
 
-### 远端操作
+#### 远端操作
 ```bash
 git remote -v                                   # 查看远程版本库信息
 git fetch <remote>                              # 从远程库获取代码，如果远程代码比本地新，会有合并记录
@@ -108,25 +127,25 @@ git remote add <remote> <url>                   # 增加远程库和本地库的
 
 ![git-flow](./git-flow.png)
 
-### GitFlow使用原则
+#### GitFlow使用原则
 - Master分支是线上稳定分支，Release通常用作测试分支，Develop分支是开发应用的主分支
 - 所有的功能开发都在Feature分支进行，然后合并到Develop分支
 - Release分支发布后出现问题，直接在Release分支修改，避免Develop分支代码污染
 
-### GitFlow分支
+#### GitFlow分支
 1. Master分支：这个分支是发布到生产环境的代码，这个分支只能从其他分支合并，不能在这个分支直接修改
 2. Develop分支：这个分支是主开发分支，包含所有要发布到下一个Release的代码，这个主要合并自其他分支，比如Feature分支
 3. Feature分支：Feature 分支主要用来开发一个新的功能，一旦开发完成，合并回Develop分支，并且进入下一个Release。Feature分支可以选择删除或者保留
 4. Release分支：当需要发布一个新Release的时候，基于Develop分支创建一个Release分支，Release分支在测试过程中可能会修改，完成Release后，合并到Master和Develop分支，完成后可以删除该分支
 5. Hotfix分支：当在Master分支发现新的Bug时候，需要创建一个Hotfix分支, 完成Hotfix后，合并回Master和Develop分支，所以Hotfix的改动会进入下一个Release。完成后可以删除该分支
 
-### GitFlow快捷操作
+#### GitFlow快捷操作
 建议使用[gitflow](https://github.com/nvie/gitflow)脚本快捷的进行该工作流程，安装方法和使用方法见[gitflow](https://github.com/nvie/gitflow)文档。
 
 ## CommitMessage规范
 基于[AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit)规范，可以根据不同项目自行定制。
 
-### CommitMessage格式
+#### CommitMessage格式
 ```
 格式要求
 <type>(<scope>): <subject>
@@ -147,7 +166,7 @@ git remote add <remote> <url>                   # 增加远程库和本地库的
 # 尾部：如果需要的话可以添加一个链接到issue地址或者其它文档，或者关闭某个issue。
 ```
 
-### 所有的`type`类型如下：
+#### 所有的`type`类型如下：
 - feat： 新增 feature
 - fix: 修复 bug
 - docs: 仅仅修改了文档，比如 README, CHANGELOG, CONTRIBUTE等等
