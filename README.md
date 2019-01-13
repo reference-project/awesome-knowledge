@@ -11,6 +11,7 @@
 
 ### :package: 后端
 - [Nginx](/backend/nginx.md)
+- [每个开发者应该了解的Linux命令](/backend/linux-command.md)
 
 ### :globe_with_meridians: 前端
 #### 框架
