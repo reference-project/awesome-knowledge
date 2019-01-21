@@ -25,12 +25,18 @@
   - [debugger-for-chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)：一个能够直接对 Chrome 中的代码进行 DEBUG 的工具
   - [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)：为 JS 生成符合 JSDoc 规范的注释工具
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)：VSC 中最好用的Git 工具
-  - [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc): 用来在写 Markdown 的时候生成 TOC 的工具，不一定需要
+  - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): 用来在写 Markdown 的扩展
+  - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client): 比较方便的用来测试和请求API
   - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)：路径自动补全，引入静态资源的时候必备
   - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)：Python 必备
   - [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)：在线代码协作分享工具
   - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)：好看的文件夹图标
-  - 
+  - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)：JAVA开发扩展包
+  - [Lombok](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)：Lombok
+  - [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)：SPRING BOOT开发扩展包
+  - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)：彩虹括号，缓解眼疲劳
+  - [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)：Python扩展包
+  - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)：项目管理器
 ```json
 // 将设置放入此文件中以覆盖默认设置
 {
@@ -66,6 +72,8 @@
 ## 日常开发
 - [Docker](https://www.docker.com/)
 - [Navicat Premium](https://www.navicat.com/en/products/navicat-premium)：数据库管理工具
+- [Wireshark](https://www.wireshark.org/)：抓包分析工具
+- [Magnet](https://itunes.apple.com/cn/app/p.m.-magnet-free/id441258766?mt=12)：快捷分屏工具
 
 ## 设计作图
 - [Sketch](https://www.sketchapp.com/)：设计作图工具
@@ -74,6 +82,7 @@
 
 ## 日常使用
 - [有道笔记](http://note.youdao.com/)
+- [1Password](https://1password.com/)
 - [有道词典](http://dict.youdao.com/)
 - [网易邮件大师](https://mail.163.com/dashi/)
 - [网易云音乐](https://music.163.com/)
