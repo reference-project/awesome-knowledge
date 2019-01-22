@@ -9,6 +9,7 @@
 ## :bookmark_tabs: 目录
 ### :last_quarter_moon: 基础
 - [算法与数据结构](/basic/data-structures-and-algorithms/README.md)
+- [设计模式](/basic/design-pattern/README.md)
 
 ### :page_with_curl: 语言
 
