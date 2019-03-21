@@ -17,6 +17,7 @@
 - [Nginx](/backend/nginx.md)
 - [常用Linux命令](/backend/linux-command.md)
 - [使用Wireshark和Tcpdump进行Http抓包](/backend/wireshark-tcpdump/wireshark-tcpdump.md)
+- [分布式锁](/backend/distributed-lock/redis-distributed-lock.md)
 
 ### :globe_with_meridians: 前端
 #### 框架

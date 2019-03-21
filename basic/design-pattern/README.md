@@ -22,6 +22,12 @@
 
 > 创建模式旨在提供一种最佳的对象创建方式，使得对象的创建更加符合应用场景。
 
+- 单例模式
+  - [双重检查懒汉单例模式](./singleton/LazyDoubleCheckSingleton.java)
+  - [内部静态类单例模式](./singleton/StaticInnerClassSingleton.java)
+  - [内部静态类单例模式](./singleton/HungrySingleton.java)
+  - [枚举单例模式](./singleton/EnumSingleton.java)
+
 ### 结构性模式
 
 > 结构模式更加关注如何将编程模型进行更好的组合以得到更高的复用率。
