@@ -24,6 +24,7 @@
 - [React](/frontend/framework/react/react.md)
 
 ### :card_file_box: 数据库
+- [优化MySql语句](/database/optimizing-sql.md)
 
 ### :wrench: 工具
 - [Git](/tool/git/git.md)
