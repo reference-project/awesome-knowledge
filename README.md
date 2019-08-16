@@ -30,6 +30,7 @@
 - [Git](/tool/git/git.md)
 - [我的Mac工具集](/tool/computer/my-mac.md)
 - [Markdown](/tool/writing/markdown.md)
+- [在Linux系统Centos7中安装Docker](/tool/docker/install-docker.md)
 
 ### :memo: 资源
 - [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/)：常用的Emoji
