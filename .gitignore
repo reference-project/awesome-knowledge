@@ -1,2 +1,6 @@
 .Ds_store
 .vscode
+
+*.iml
+.idea
+target/

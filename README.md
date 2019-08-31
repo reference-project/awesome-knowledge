@@ -12,6 +12,8 @@
 - [设计模式](/basic/design-pattern/README.md)
 
 ### :page_with_curl: 语言
+- Java
+  - [使用JMH做基准测试](/language/java/jmh-demo/README.md)
 
 ### :package: 后端
 - [Nginx](/backend/nginx.md)
